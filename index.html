@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <script src="http://use.edgefonts.net/crimson-text.js"></script>
+        <meta charset="utf-8">
+        <title>Boulder Watch Co.</title>
+        <meta name="description" content="Boulder Watch Co.">
+        <meta name="author" content="Sebastian Awatramani">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+    </head>
+    <body>
+        <div class="bgimg-1">
+<!--
+            <header>
+                <img src="images/1498007052_menu-alt.png" />
+                <p>menu</p>
+            </header>
+-->
+            <div class="caption">
+                <span class="border" id='companyText'>Boulder Watch Co.</span>
+            </div>
+            <nav>
+                <ul>
+                    <li id='navAbout' data-section='aboutSection'>about</li>
+                    <li id='navProducts' data-section='productsSection'>products</li>
+                    <li id='navServices' data-section='servicesSection'>services</li>
+                    <li id='navContact' data-section='contactSection'>location</li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="bgimg-2" id="aboutSection">
+            <div class = "info" id="aboutInfo">
+                <h1>About Boulder Watch Co.</h1>
+                <p>The Boulder Watch Company was founded in 1653 by explorer and adventurer <span class='emp'>Elias P. Curryweather III</span>. Before discovering Boulder, Curryweather's family had a rich and storied history in Moldovian watch making, but was driven from Moldovia by the Mad King's reign in the early 17th century.  Upon discovering the lush Boulder valley, Curryweather realized that even before foodstuffs and water wells were necessary, people would need to tell time.  Hence, he founded the Boulder Watch Company for all of Boulder's timekeeping and timekeeping repair needs.</p>
+            </div>
+        </div>
+        <div class = 'bgimg-3' id="productsSection">
+            <div id='productInfo' class='info'>
+                <h1>Boulder Watch Co. is proud to be an authorized dealer for the following brands</h1>
+                <div class='gallery'>
+                    <img src="images/logos/seiko-authorized-dealer.png" class='logoImg' />
+                    <img src="images/logos/citizen-authorized-dealer.png" class='logoImg'/>
+                    <img src="images/logos/victorinox-authorized-dealer.jpg" class='logoImg' />	
+                </div>
+                <h1>We also carry a rotating selection of vintage and luxury watches</h1>
+            </div>
+        </div>
+
+        <div class='bgimg-5' id="servicesSection">
+            <div class='info' id='serviceInfo'>
+                <h1>Boulder Watch Co. offers a full range of service and repair options</h1>
+                <div class='uListContainer'>
+                    <div class='liContainer'>
+                        <img src='images/brokenness-1426306-640x480.jpg' />
+                        <ul>
+                            <li>Battery Replacement</li>
+                            <li>Sizing and Adjustments</li>
+                            <li>Ultrasonic Cleaning</li>
+                        </ul>
+                    </div>
+                    <div class='liContainer'>
+                        <img src='images/brokenness-3-1420917-640x480.jpg' />
+                        <ul>          
+                            <li>Replacement Straps</li>
+                            <li>Water Restiance Maintainance</li>
+                            <li>Full Mechanical Watch Serviceing</li>
+                        </ul>
+                    </div>
+                    <div class='liContainer'>
+                        <img src='images/brokenness-5-1420880-640x480.jpg' />
+                        <ul>
+                            <li>De-magnetism</li>
+                            <li>Water/Moisture Damage</li>
+                            <li>Crystal, Crown, Pin and Pusher Replacement</li>                 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='bgimg-4' id="contactSection">
+            <!-- <img src='images/map.png' /> -->
+            <div class='info' id='contactInfo'>
+                <span class='border' id='btmTitle'>Boulder Watch Co.</span>
+                <span id='hours'>
+                    Hours:<br>
+                    M-F 11am-5pm<br>
+                    S-S 12pm-4pm
+                </span>
+                <address>
+                    20 UCB<br>
+                    Boulder, Co 80202<br>
+                    303-555-1212
+                </address>
+                <map>
+                    <img src="images/CaptureMap.jpg" />
+                </map>
+            </div>
+        </div>
+    </body>
+</html>
+
+    <script type="text/javascript">
+
+        function init() {
+            console.log(window.innerHeight);        
+            var lis = document.querySelectorAll("li");
+            for(var i = 0; i < lis.length; i++) {
+                lis[i].onclick=function() {
+                    document.getElementById(this.getAttribute('data-section')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                };
+            };
+
+        };
+
+        window.onload = init;
+        window.onscroll = changeLogoShadow;
+        
+        function changeLogoShadow() {
+            var companyText = document.getElementById("companyText");
+            var newScroll = 75-window.pageYOffset/3;
+            var newStyle = "35px";
+            companyText.style.textShadow =  "0px 1px 0px rgba(255, 255, 255, .8), 35px " + newScroll + "px 6px";
+        }
+        
+
+
+
+    </script>

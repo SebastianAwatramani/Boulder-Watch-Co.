@@ -1,0 +1,354 @@
+#aboutInfo
+{
+    background-color:rgba(255,248,220,0.9);
+    top:50%;
+    transform:translateY(-50%);
+    padding: 100px;
+}
+#aboutInfo p {
+    max-width: 500px;
+}
+#aboutInfo h1 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+#btmTitle {
+    margin-left: 20px;
+    /*text-align: center;*/
+    color:antiquewhite
+
+
+    /*transform: translateY(-50%);*/
+}
+#companyText {
+
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, .8), 35px 75px 11px;
+    text-shadow: ;
+}
+
+#hours {
+
+
+}
+
+
+#contactInfo {
+    /*background-color: rgba(255,248,220,0.9);*/
+    /*background-color:rgba(0,0,0,0.7);*/
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 41%, rgba(0,0,0,0.8) 60%, rgba(0,0,0,0.9) 80%, rgba(0,0,0,0.95) 100%);
+    min-height: 25%;
+/*    height: 25%;*/
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+
+}
+/*
+
+#contactInfoContent {
+    width: 50%;
+    margin: 0 auto;
+    background-color: 
+
+}
+*/
+
+#contactInfo img {
+    box-shadow: 10px 0px 5px #000000;
+    margin-right:auto;
+/*    margin-left: auto;*/
+    align-self: baseline;
+
+}
+
+.emp {
+    font-weight: bold;
+}
+
+#contactInfo address, #hours {
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    /*font-weight: 800;*/
+    color: #FAEBD7;
+    font-family: "Times New Roman";
+    font-size: 1.2em;
+    font-style: normal; 
+    margin: 0 0 0 25px;
+/*    line-height:  20px;*/
+    position:  relative;
+/*    font-variant: small-caps;*/
+
+}
+
+
+#productInfo
+{
+    background-color:rgba(0,0,0,0.9);
+    min-height:23%;
+    width:80%;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#productInfo h1
+{
+    color:#fff;
+    font-size: 1.5em;
+
+}
+
+#serviceInfo
+{
+    background-color:rgba(24,56,88,0.9);
+    bottom:0;
+    width:80%;
+    height: 500px;
+}
+
+#serviceInfo h1
+{
+    color:#fff;
+    font-weight:700;
+}
+
+#serviceInfo ul
+{
+/*
+    list-style-image:url(../images/logos/clock-128.png);
+    margin:0 auto;
+    padding:25px 0;
+    width:100%;
+*/
+}
+
+#serviceInfo ul li
+{
+    color:#eef7f6;
+/*    display:block;*/
+}
+
+.bgimg-1
+{
+    background-image:url(../images/clockBlur.jpg);
+    min-height:100vh;
+}
+
+.bgimg-1,.bgimg-2,.bgimg-3,.bgimg-4,.bgimg-5
+{
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.85;
+    position:relative;
+}
+
+.bgimg-2
+{
+    background-image:url(../images/bgImg2.jpg);
+    min-height:100vh;
+}
+
+.bgimg-3
+{
+    background-image:url(../images/bgImg3.jpg);
+    min-height:100vh;
+}
+
+.bgimg-4
+{
+    background-image:url(../images/compass-1621264.jpg);
+    min-height:100vh;
+}
+
+.bgimg-5
+{
+    background-image:url(../images/brokenness-5-1420880.jpg);
+    min-height:100vh;
+}
+
+.caption
+{
+    color:#000;
+    left:0;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    transform:translateY(-50%);
+    width:100%;
+}
+
+.caption span.border, .border
+{
+    color:#000;
+    font-family:Garamond;
+    font-size:4em;
+    font-variant:small-caps;
+
+    
+}
+
+.gallery
+{
+    margin:0 auto;
+    padding:40px 0;
+    text-align:center;
+    width:75%;
+}
+
+.info
+{
+    padding:50px 10%;
+    position:absolute;
+
+}
+
+
+
+
+.info h1
+{
+    font:small-caps 1.5em Georgia;
+    text-align:center;
+}
+
+.liContainer
+{
+    font-size: .9em;
+    width: 250px;
+    height: 300px;
+    background-color:#;
+/*    display:inline-block;*/
+/*    height:350px;*/
+    margin:0 25px;
+    padding:10px;
+/*    vertical-align:top;*/
+/*    width:20%;*/
+    border: 13px white;
+   
+/*
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-wrap: wrap;
+*/
+    
+}
+
+.liContainer ul {
+    width: 200px;
+    margin: 25px auto;
+    height: auto;
+    
+}
+
+.liContainer img
+{
+    width:200px;
+    border-radius: 50%; 
+    height:200px;
+}
+
+.liContainer ul li {
+    text-align: left;
+    background: url(../images/logos/clock23.png) no-repeat top left;
+    line-height: 24px;
+    vertical-align: middle;
+    list-style-type: none;
+    padding: 0 0 0 35px; 
+    margin: 5px;
+/*    height: 56px;*/
+}
+
+.logoImg
+{
+    margin:0 auto;
+    padding:10px 25px;
+    width:100px;
+}
+
+.uListContainer
+{
+    margin:0 auto;
+    padding-top:50px;
+    text-align:center;
+    width:90%;
+    display: flex;
+    justify-content: center;
+}
+
+body,html
+{
+    /*font:400 15px/1.8 Lato, sans-serif;*/
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+h1
+{
+    margin:0;
+    padding:0;
+    font-size: 25px;
+}
+
+header img  {
+    width: 29px;
+    height: 29px;
+    margin: 11px 10px; 
+    float: left;
+}
+header p {
+    font-size: 25px;
+    font-family: crimson-text; 
+    color: white;
+    font-variant: small-caps;
+    float: left;
+    margin: 9px 5px;
+    letter-spacing: 2px;
+}
+nav
+{
+/*    border:1px solid #ccc;*/
+    border-width:1px 0;
+    bottom:0px;
+    left:50%;
+    list-style:none;
+    margin:0;
+    padding:15px 0;
+    position:absolute;
+    text-align:right;
+    transform:translateX(-50%);
+    width: 100%;
+/*    background: rgba(0,0,0,0.7);*/
+}
+
+nav ul
+{
+    bottom:0;
+    margin:0;
+    padding:0 25px;
+}
+
+nav ul li
+{
+    cursor:pointer;
+    display:inline;
+    font:25px Garamond;
+    list-style-type:none;
+    padding:7px;
+    color: #fff;
+    font-variant: small-caps;
+    
+    
+    
+}
