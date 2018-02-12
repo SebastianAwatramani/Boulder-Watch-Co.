@@ -133,13 +133,13 @@
 /*    display:block;*/
 }
 
-.bgimg-1
+#introSection
 {
     background-image:url(../images/clockBlur.jpg);
     min-height:100vh;
 }
 
-.bgimg-1,.bgimg-2,.bgimg-3,.bgimg-4,.bgimg-5
+.slide
 {
     background-attachment:fixed;
     background-position:center;
@@ -149,25 +149,25 @@
     position:relative;
 }
 
-.bgimg-2
+#aboutSection
 {
     background-image:url(../images/bgImg2.jpg);
     min-height:100vh;
 }
 
-.bgimg-3
+#productsSection
 {
     background-image:url(../images/bgImg3.jpg);
     min-height:100vh;
 }
 
-.bgimg-4
+#contactSection
 {
     background-image:url(../images/compass-1621264.jpg);
     min-height:100vh;
 }
 
-.bgimg-5
+#servicesSection
 {
     background-image:url(../images/brokenness-5-1420880.jpg);
     min-height:100vh;
